@@ -4,83 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>micro-project-1</title>
-    <style>
-        .div-container{
-            position: absolute;
-            top: 5dvh;
-            left: 5px;
-            border: 2px solid red;
-            height: auto;
-            width: auto;
-        }
-        .header-body{
-            position: relative;
-            margin: 2px;
-            border: 3px solid black;
-            height: 410px;
-            width: 1220px;
-        }
-        .div-left{
-            margin: 2px;
-            border: 2px solid blue;
-            float: left;
-            height: 400px;
-            width: 48%;
-        }
-        .div-right{
-            margin: 2px;
-            border: 2px solid green;
-            float: right;
-            height: 400px;
-            width: 48%;
-        }
-        .div-hero{
-            border: 4px solid green;
-        }
-        .footer-left{
-            margin: 5px;
-            border: 3px solid blue;
-            float: left;
-            width: 48%;
-        }
-        .footer-right{
-            margin: 5px;
-            border: 2px solid blue;
-            float: right;
-            width: 48%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="div-container">
         <div class="header-body">
             <div class="div-left">
-                <h2>This is heading h2</h2>
-                <p>This is a paragraph</p>
-                <b>This is strong</b><br>
-                <input type="text">
-                <button>button</button> <br>
-                <span>This is span</span>
+                <h2>An inspiring design delivered to your inbox every morning</h2>
+                <p>Our team scouts the internet for the best designs, illustrations, art and deliver a truly inspiring one every day to your inbox</p>
+                <b>Show me hour it looks</b><br>
+                <form action="/action.php">
+                    <label for="email"></label>
+                    <input type="text" id="email" name="email" value="Enter your email">
+                    <button>Register Now</button> <br>
+                </form>
+                
+                
+                <span>Free-No span- No Data Sharing</span>
             </div>
             <div class="div-right">
-                <img src="pic1.jpg" height="" width="580px" alt="error loading...">
+                <img src="images.png" alt="error loading...">
             </div>
         </div>
         
 
         <div class="div-hero">
             <footer class="footer-left">
-                <h3>This is footer h3</h3>
-                <ul>
-                    <li>line1</li>
-                    <li>line2</li>
-                    <li>line3</li>
-                </ul>
+                <p>Prompt Generator</p>
+                <p>Dweep Daily</p>
+                <p>All Contributors</p>
+                <p>Your data on Dweep.io</p>
+                <p>Contribution to Dweep</p>
             </footer>
             <footer class="footer-right">
-                <h4>This is footer h4</h4>
+                <p>Dweep.io</p>
+                <p>Made with love in india</p>
+                <div id="social">
+                    <a href="https://www.linkedin.com/"><img src="linkedIn.png"></a>
+                <a href="https://www.instagram.com/"><img src="insta.jpeg"></a>
+                <br><br>
+                </div>
+                
+                <p>hello@dweep.io</p>
             </footer>
         </div>
     </div>
 </body>
 </html>
+<!--  -->
